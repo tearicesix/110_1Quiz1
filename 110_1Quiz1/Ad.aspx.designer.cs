@@ -7,10 +7,12 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace _110_1Quiz1 {
+namespace _110_1Quiz1
+{
 
 
-    public partial class Ad {
+    public partial class Ad
+    {
 
         /// <summary>
         /// form1 控制項。
@@ -20,5 +22,23 @@ namespace _110_1Quiz1 {
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// XmlDataSource1 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource XmlDataSource1;
+
+        /// <summary>
+        /// AdRotator1 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.AdRotator AdRotator1;
     }
 }

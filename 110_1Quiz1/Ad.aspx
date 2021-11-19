@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+             <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ch5-8.xml"></asp:XmlDataSource>
+            <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" />
         </div>
     </form>
 </body>
